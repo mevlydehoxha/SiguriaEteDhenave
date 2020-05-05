@@ -34,7 +34,6 @@ public class ds {
 	private static String PUBLIC_KEY_FILE=null;
 	private static String PRIVATE_KEY_FILE=null;
 	 static final String string = System.getProperty("line.separator");
-	private static final classRSA AES = null;
 	 private static final int AES_128 = 128;
 		public static String ALGORITHM = "AES";
 		private static String AES_CBS_PADDING = "AES/CBC/PKCS5Padding";
