@@ -343,7 +343,7 @@ public class ds {
 	    	
 	    	//________________________________AES-IV-DECODE_______________________________________________
 	    	String[] array1 = dec.split("\\.");
-	    	KeyGenerator keyGenerator1 = KeyGenerator.getInstance(classRSA.ALGORITHM);
+	    	KeyGenerator keyGenerator1 = KeyGenerator.getInstance(ds.ALGORITHM);
 			keyGenerator1.init(AES_128);
 			SecretKey key11 = keyGenerator1.generateKey();
 			
