@@ -118,8 +118,8 @@ public class ds {
 		try
 		{
 			
-			File f1 = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave"+PRIVATE_KEY_FILE);
-			File f2 = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave"+PUBLIC_KEY_FILE);
+			File f1 = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave\\"+PRIVATE_KEY_FILE);
+			File f2 = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave\\"+PUBLIC_KEY_FILE);
 			if (f1.exists() || f2.exists())
 		    {
 		      System.out.println("Gabim:Celesi '"+Args+"' ekziston paraprakisht.");
@@ -310,13 +310,13 @@ public class ds {
 			if(args.length==3)
 			{
 				String keys1111=args[1];
-				String eString=args[2];
+				String eString=args[2].trim();
 				write1(keys1111,eString);
 			}
 			else if(args.length==4)
 			{
 				String keys1111=args[1];
-				String eString=args[2];
+				String eString=args[2].trim();
 				String path=args[3];
 				write2(keys1111,eString,path);
 			}
