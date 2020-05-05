@@ -236,7 +236,7 @@ public class ds {
 			FileInputStream instream2 = null;
 			FileOutputStream outstream2 = null;
 			File file12 = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave\\"+in+".xml");
-			File file22 = new File("C:\\Users\\HP\Documents\\GitHub\\SiguriaEteDhenave\\"+in+".pub.xml");
+			File file22 = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave\\"+in+".pub.xml");
 			
 			if (file12.exists() && file22.exists())
 		    {
