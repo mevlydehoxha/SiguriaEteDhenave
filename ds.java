@@ -752,13 +752,13 @@ public class ds {
 			//______________________________________________AES-IV__________________________________________
 	    	 
 			
-			KeyGenerator keyGenerator = KeyGenerator.getInstance(classRSA.ALGORITHM);
+			KeyGenerator keyGenerator = KeyGenerator.getInstance(ds.ALGORITHM);
 			keyGenerator.init(AES_128);
 			SecretKey key = keyGenerator.generateKey();
 			
 			SecretKey IV = keyGenerator.generateKey();
 			
-			byte[] cipherText = classRSA.encrypt(key.getEncoded(), IV.getEncoded(), eString.getBytes());
+			byte[] cipherText = ds.encrypt(key.getEncoded(), IV.getEncoded(), eString.getBytes());
 			//___________________________________RSA_______________________________________________________
 			
 		    Map<String, Object> keysEnc = getRSAKeys();
@@ -805,13 +805,13 @@ public class ds {
 			//______________________________________________AES-IV__________________________________________
 	    	 
 			
-			KeyGenerator keyGenerator = KeyGenerator.getInstance(classRSA.ALGORITHM);
+			KeyGenerator keyGenerator = KeyGenerator.getInstance(ds.ALGORITHM);
 			keyGenerator.init(AES_128);
 			SecretKey key = keyGenerator.generateKey();
 			
 			SecretKey IV = keyGenerator.generateKey();
 			
-			byte[] cipherText = classRSA.encrypt(key.getEncoded(), IV.getEncoded(), eString.getBytes());
+			byte[] cipherText = ds.encrypt(key.getEncoded(), IV.getEncoded(), eString.getBytes());
 			//___________________________________RSA_______________________________________________________
 			
 		    Map<String, Object> keysEnc = getRSAKeys();
