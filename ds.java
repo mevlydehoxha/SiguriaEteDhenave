@@ -119,8 +119,8 @@ public class ds {
 		try
 		{
 			
-			File f1 = new File("C:\\Users\\HP\\eclipse-workspace\\Projekti2SigurieTeDhenave\\"+PRIVATE_KEY_FILE);
-			File f2 = new File("C:\\Users\\HP\\eclipse-workspace\\Projekti2SigurieTeDhenave\\"+PUBLIC_KEY_FILE);
+			File f1 = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave"+PRIVATE_KEY_FILE);
+			File f2 = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave"+PUBLIC_KEY_FILE);
 			if (f1.exists() || f2.exists())
 		    {
 		      System.out.println("Gabim:Celesi '"+Args+"' ekziston paraprakisht.");
@@ -165,8 +165,8 @@ public class ds {
 			PUBLIC_KEY_FILE=Args1+".pub.xml";
 				File f1= new File(PUBLIC_KEY_FILE);
 				File f2=new File(PRIVATE_KEY_FILE);
-				File file1234 = new File("C:\\Users\\HP\\eclipse-workspace\\Projekti2SigurieTeDhenave\\"+PRIVATE_KEY_FILE);
-				File file2234 = new File("C:\\Users\\HP\\eclipse-workspace\\Projekti2SigurieTeDhenave\\"+PUBLIC_KEY_FILE);
+				File file1234 = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave"+PRIVATE_KEY_FILE);
+				File file2234 = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave"+PUBLIC_KEY_FILE);
 				
 				if(file1234.exists() && file2234.exists())
 				{
@@ -236,8 +236,8 @@ public class ds {
 			FileOutputStream outstream1 = null;
 			FileInputStream instream2 = null;
 			FileOutputStream outstream2 = null;
-			File file12 = new File("C:\\Users\\HP\\eclipse-workspace\\Projekti2SigurieTeDhenave\\"+in+".xml");
-			File file22 = new File("C:\\Users\\HP\\eclipse-workspace\\Projekti2SigurieTeDhenave\\"+in+".pub.xml");
+			File file12 = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave\\"+in+".xml");
+			File file22 = new File("C:\\Users\\HP\Documents\\GitHub\\SiguriaEteDhenave\\"+in+".pub.xml");
 			
 			if (file12.exists() && file22.exists())
 		    {
@@ -330,7 +330,7 @@ public class ds {
 			
 			String dec=args[1];
 			 String[] array = dec.split("\\.");
-			 File k = new File("C:\\Users\\HP\\eclipse-workspace\\Projekti2SigurieTeDhenave\\keys");
+			 File k = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave\\keys");
 		     if (k.isDirectory()) {
 		            String[] files = k.list();
 
@@ -627,8 +627,8 @@ public class ds {
 				PUBLIC_KEY_FILE=Args11+".pub.xml";
 				
 				
-				File file123 = new File("C:\\Users\\HP\\eclipse-workspace\\Projekti2SigurieTeDhenave\\"+PRIVATE_KEY_FILE);
-				File file223 = new File("C:\\Users\\HP\\eclipse-workspace\\Projekti2SigurieTeDhenave\\"+PUBLIC_KEY_FILE);
+				File file123 = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave\\"+PRIVATE_KEY_FILE);
+				File file223 = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave\\"+PUBLIC_KEY_FILE);
 				boolean exists12 = file123.exists();
 				boolean exists22 = file223.exists();
 			    //keypair
@@ -684,8 +684,8 @@ public class ds {
 			PUBLIC_KEY_FILE=Args11+".pub.xml";
 			
 			
-			File file123 = new File("C:\\Users\\HP\\eclipse-workspace\\Projekti2SigurieTeDhenave\\"+PRIVATE_KEY_FILE);
-			File file223 = new File("C:\\Users\\HP\\eclipse-workspace\\Projekti2SigurieTeDhenave\\"+PUBLIC_KEY_FILE);
+			File file123 = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave\\"+PRIVATE_KEY_FILE);
+			File file223 = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave\\"+PUBLIC_KEY_FILE);
 			boolean exists12 = file123.exists();
 			boolean exists22 = file223.exists();
 		    //keypair
@@ -742,7 +742,7 @@ public class ds {
 			
 			String Args1111=keys1111;
 			PUBLIC_KEY_FILE=Args1111+".pub.xml";
-			File f2 = new File("C:\\Users\\HP\\eclipse-workspace\\Projekti2SigurieTeDhenave\\"+PUBLIC_KEY_FILE);
+			File f2 = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave\\"+PUBLIC_KEY_FILE);
 			
 			if (f2.exists())
 		    {
@@ -798,7 +798,7 @@ public class ds {
 			String Args1111=keys1111;
 			PUBLIC_KEY_FILE=Args1111+".pub.xml";
 		
-			File f2 = new File("C:\\Users\\HP\\eclipse-workspace\\Projekti2SigurieTeDhenave\\"+PUBLIC_KEY_FILE);
+			File f2 = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave\\"+PUBLIC_KEY_FILE);
 			if(f2.exists()) {
 			
 			//_____________________________UTF8_____________________________________________________________
