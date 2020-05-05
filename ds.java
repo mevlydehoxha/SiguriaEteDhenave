@@ -164,8 +164,8 @@ public class ds {
 			PUBLIC_KEY_FILE=Args1+".pub.xml";
 				File f1= new File(PUBLIC_KEY_FILE);
 				File f2=new File(PRIVATE_KEY_FILE);
-				File file1234 = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave"+PRIVATE_KEY_FILE);
-				File file2234 = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave"+PUBLIC_KEY_FILE);
+				File file1234 = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave\\"+PRIVATE_KEY_FILE);
+				File file2234 = new File("C:\\Users\\HP\\Documents\\GitHub\\SiguriaEteDhenave\\"+PUBLIC_KEY_FILE);
 				
 				if(file1234.exists() && file2234.exists())
 				{
